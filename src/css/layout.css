@@ -3,11 +3,14 @@
 	margin: 0;
 	padding: 0;
 }
-.aboutMe{
-	margin-top: 2rem;
-	margin-bottom: 2rem;
+#portfolioImage {
+	width: 100%;
+}
+.aboutMe {
+	padding: 2rem 200px 2rem 200px;
 	position: relative;
 	text-align: center;
+	width: 100%;
 }
 .container {
 	margin: 2rem;
@@ -24,9 +27,14 @@
 	margin: 0 auto;
 	max-width: 1200px;
 	width: 90%;
+	padding: 2rem 5rem 2rem 5rem;
 }
 .skills{
 	margin-top: .5rem;
+}
+.contactinfo {
+	margin: 2rem 2rem 2rem 2rem;
+	padding: 2rem 2rem 2rem 2rem;
 }
 article{
 	border: 1px solid black;
@@ -42,9 +50,6 @@ article h3{
 }
 article footer{
 	margin-top: 1rem;
-}
-figure img {
-	width: 100%;
 }
 figure figcaption {
 	bottom: .5rem;
