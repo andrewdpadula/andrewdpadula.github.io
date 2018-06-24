@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Page title here!</title>
+	<title>Andrew Padula</title>
 	<link rel="icon" href="./src/img/1f4ab.png">
 	<link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
     <link rel="stylesheet" href="./src/css/layout.css">
@@ -13,21 +13,26 @@
 <body>
 	<div class="container">
 		<header>
-			<h1>Andrew D. Padula</h1>
+			<h1 id="top">Andrew D. Padula</h1>
 			<nav>
 				 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Me</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#top">Home</a></li>
+                    <li><a href="#aboutMeSection">About Me</a></li>
+                    <li><a href="#projectsSection">Projects</a></li>
+                    <li><a href="#contactSection">Contact</a></li>
 			</nav>
 		</header>
 		<main class="textContent">
-			<h2>About Me</h2>
+			<h2 id="aboutMeSection">About Me</h2>
+				<img id="headshot" src="./src/img/andy-final.jpg" alt="Avatar">
 				<section class="aboutMe">
-					<p>About Me. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit repellat, expedita sint qui, consectetur nemo sequi porro, quas deleniti tenetur repudiandae eos magni incidunt harum quam quia suscipit itaque id!</p>
+						<p>Welcome! My name is Andrew Padula. I am a full-stack software developer in training at WeCanCodeIt. I'm currently based in Columbus, OH.</p>
+						<p>Skills: Java, Spring, HTML5, CSS3, JavaScript, MVC, Object Oriented Programming, Git.</p>
 				</section>
-			<h2>Portfolio</h2>
+				<p class="backToTop">
+					<a href="#top">Back to top</a>
+				</p>
+			<h2 id="projectsSection">Projects</h2>
 				<section class="projects">
 					<article class="projectOne">
 	                    <header>
@@ -84,16 +89,21 @@
 	                    </footer>
 					</article>
 				</section>
-				<h2>Contact</h2>	
+				<p class="backToTop">
+					<a href="#top">Back to top</a>
+				</p>
+				<h2 id="contactSection">Contact</h2>	
 					<section class="contactInfo">
 						<h3>Email</h3>
-							<a href=:"mailto:andrewdpadula@gmail.com" alt:"Email address">andrewdpadula@gmail.com</a>
+							<a href="mailto:andrewdpadula@gmail.com" alt:"Email address">andrewdpadula@gmail.com</a>
 						<h3>LinkedIn</h3>
 								<a href="https://www.linkedin.com/in/andrew-padula-8a871a164/" alt:"LinkedIn profile">
 								https://www.linkedin.com/in/andrew-padula-8a871a164/</a>
 						<h3>GitHub</h3>
 							<a href="https://github.com/andrewdpadula" alt:"GitHub profile">https://github.com/andrewdpadula</a>
-							<a class="backToTop" href=:"#top">Back to top</a>
+							<p class="backToTop">
+								<a href="#top">Back to top</a>
+							</p>
 					</section>	
 		</main>
 		<footer>&copy;2018 Andrew Padula</footer>

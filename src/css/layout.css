@@ -3,23 +3,38 @@
 	margin: 0;
 	padding: 0;
 }
+#headshot {
+	border-radius: 50%;
+	max-height: 400px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 #portfolioImage {
 	width: 100%;
 }
 .aboutMe {
-	padding: 2rem 200px 2rem 200px;
+	padding: 2rem 20% 2rem 20%;
 	position: relative;
-	text-align: center;
 	width: 100%;
 }
+.aboutMe p {
+	margin-bottom: 1rem;
+}
+.backToTop {
+	float: right;
+	padding-top: 2rem;
+	margin-bottom: 1rem;
+}
 .container {
-	margin: 2rem;
+	margin: .5rem;
 }
 .textContent {
 	min-height: 100vh;
 	margin: 0 auto;
 	max-width: 1500px;
 	width: 95%;
+	padding-bottom: 3rem;
 }
 .projects {
 	display: grid;
@@ -27,19 +42,21 @@
 	margin: 0 auto;
 	max-width: 1200px;
 	width: 90%;
-	padding: 2rem 5rem 2rem 5rem;
+	padding: 1rem 3rem 1rem 3rem;
 }
 .skills{
 	margin-top: .5rem;
 }
-.contactinfo {
-	margin: 2rem 2rem 2rem 2rem;
-	padding: 2rem 2rem 2rem 2rem;
+.contactInfo {
+	margin-left: 2rem;
+}
+.contactInfo h3{
+	margin-top: .5rem;
 }
 article{
 	border: 1px solid black;
-	margin-left: 2px;
-	margin-right: 2px;
+	margin-left: 15px;
+	margin-right: 15px;
 	padding: 1rem;
 	max-width: 700px;
 }
@@ -52,16 +69,21 @@ article footer{
 	margin-top: 1rem;
 }
 figure figcaption {
-	bottom: .5rem;
+	bottom: .3rem;
 	padding: .2rem;
+	margin-top: .5rem;
 	position: relative;
 	text-align: right;
-	font-size: 12px;
+	font-size: 14px;
 	width: 100%;
 }
 header h1{
 	padding: .5rem;
 }
+h2 {
+	margin-top: 1.5rem;
+	padding-bottom: .5rem;
+}
 nav {
-	padding: .5rem;
+	padding: .8rem;
 }
