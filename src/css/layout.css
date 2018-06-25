@@ -3,6 +3,28 @@
 	margin: 0;
 	padding: 0;
 }
+.aboutMeText {
+	padding: 1.5rem 20% 1.5rem 20%;
+	position: relative;
+	width: 100%;
+}
+#skills {
+	margin-top: 1rem;
+}
+.backToTop {
+	float: right;
+}
+.contactInfo {
+	margin-top: .8rem;
+	margin-bottom: 1.5rem;
+	margin-left: 2rem;
+}
+.contactInfo h3{
+	margin-top: .7rem;
+}
+.container {
+	padding: 1.5rem;
+}
 #headshot {
 	border-radius: 50%;
 	max-height: 400px;
@@ -10,63 +32,40 @@
     margin-left: auto;
     margin-right: auto;
 }
-#portfolioImage {
-	width: 100%;
+header h1{
+	padding: .8rem;
 }
-.aboutMe {
-	padding: 2rem 20% 2rem 20%;
-	position: relative;
-	width: 100%;
+nav {
+	padding: .8rem;
 }
-.aboutMe p {
-	margin-bottom: 1rem;
-}
-.backToTop {
-	float: right;
-	padding-top: 2rem;
-	margin-bottom: 1rem;
-}
-.container {
-	margin: .5rem;
-}
-.textContent {
-	min-height: 100vh;
-	margin: 0 auto;
-	max-width: 1500px;
-	width: 95%;
-	padding-bottom: 3rem;
+h2 {
+	padding-left: 1rem;
 }
 .projects {
 	display: grid;
 	grid-template-columns: 33% 33% 33%;
 	margin: 0 auto;
-	max-width: 1200px;
-	width: 90%;
-	padding: 1rem 3rem 1rem 3rem;
+	max-width: 80vw;
 }
-.skills{
-	margin-top: .5rem;
+.textContent {
+	padding: 0 auto;
 }
-.contactInfo {
-	margin-left: 2rem;
+#portfolioImage {
+	width: 100%;
 }
-.contactInfo h3{
-	margin-top: .5rem;
-}
-article{
+article {
 	border: 1px solid black;
-	margin-left: 15px;
-	margin-right: 15px;
-	padding: 1rem;
-	max-width: 700px;
+	margin: 10px;
+	padding: 10px;
+	max-width: 33vw;
 }
-article h3{
+article h3 {
 	text-align: center;
-	padding: .3rem;
-	margin-bottom: 1rem;
+	padding: 1rem;
+	margin-bottom: 10px;
 }
-article footer{
-	margin-top: 1rem;
+article footer {
+	margin-top: 1.5rem;
 }
 figure figcaption {
 	bottom: .3rem;
@@ -77,13 +76,13 @@ figure figcaption {
 	font-size: 14px;
 	width: 100%;
 }
-header h1{
-	padding: .5rem;
+
+#aboutMeSection {
+	padding-top: 1rem;
 }
-h2 {
-	margin-top: 1.5rem;
-	padding-bottom: .5rem;
+#projectsSection {
+	padding-top: 3rem;
 }
-nav {
-	padding: .8rem;
+#contactSection {
+	padding-top: 3rem;
 }
