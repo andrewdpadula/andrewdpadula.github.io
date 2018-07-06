@@ -17,6 +17,18 @@ closeModalButton.addEventListener('click', closeModal);
 
 
 
+
+
+/* PROJECTS CAROUSEL/SLIDESHOW */
+.carouselContent li{
+	list-style: none;
+}
+
+
+
+
+
+
 // var hyperlinks = document.querySelectorAll('a');
 // hyperlinks.forEach(function(elem){
 // 	elem.addEventListener('mouseover', mouseOver);

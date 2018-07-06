@@ -12,24 +12,93 @@
 </head>
 <body>
     <div class="container">
+
+        <!-- Header & Nav Menu -->
         <header>
             <h1 id="top">Andrew D. Padula</h1>
-            <nav>
-                <div class='navMenu'>
-                    <div class='dropdown'>
-                        <button class='dropButton'>Menu</button>
-                        <div class='dropdown-links'>
-                            <a href="index.html">Home</a>
-                            <a href="aboutme.html">About Me</a>
-                            <a href="projects.html">Projects</a>
-                            <a href="contact.html">Contact</a>
-                        </div>
+            <nav class='navMenu'>
+                <div class='dropdown'>
+                    <button class='dropButton'>Menu</button>
+                    <div class='dropdown-links'>
+                        <a href="index.html">Home</a>
+                        <a href="aboutme.html">About Me</a>                            <a href="projects.html">Projects</a>
+                        <a href="contact.html">Contact</a>
                     </div>
                 </div>
             </nav>
         </header>
 
-        <footer>&copy;2018 Andrew Padula</footer>
+        <section class='projectsCarousel'>
+
+            <!-- <div class='carouselButtons'>
+                <button class='prev'>
+                    &larr; <span class='offscreen'>Previous</span>
+                </button>
+                <button class="next">
+                    <span class='offscreen'>Next</span> &rarr; 
+                </button>
+            </div>     -->
+
+            <ol class='carouselContent'>
+            <li>
+                <article class='projectSlide' id='projectOneSlide'>
+                    <h3>Virtual Pet Shelter</h3>
+                    <figure>
+                        <a href="https://github.com/andrewdpadula/virtual-pet-shelter">
+                            <img src="./src/img/VirtualPetShelter.JPG" alt="screenshot image of Virtual Pet Shelter project" id="portfolioImage">
+                        </a>
+                        <figcaption>Click screenshot to view project on GitHub</figcaption>
+                    </figure>
+                    <div id='projectOneDescription'>
+                        <p>An interactive text-based game written in Java. Users are asked to care for virtual pets that are stored in a shelter. Hunger, thirst, and boredom are measured for each pet and alleviated by feeding, watering, and playing, respectively. The player is able to adopt pets, removing them from the shelter. The player can also add pets to the shelter, giving them a name and character trait.</p>
+                        <br>
+                        <p class="skills">Skills used: Java, TDD.</p>
+                    </div>
+                </article>
+            </li>    
+            <li>
+                <article class='projectSlide' id='projectTwoSlide'>
+                    <figure>
+                        <h3>Virtual Pets Amok</h3>
+                        <a href="https://github.com/andrewdpadula/virtual-pets-amok">
+                            <img src="./src/img/VirtualPetsAmok.JPG" alt="screenshot image of Virtual Pets Amok project" id="portfolioImage">
+                        </a>
+                        <figcaption>Click screenshot to view project on GitHub</figcaption>
+                    </figure>
+                    <div id='projectTwoDescription'>
+                        <p>Much like "Virtual Pet Shelter" but with several twists and a greater emphasis on OOP principles, especially encapsulation and inheritance. This game introduces robotic pets to go with the traditional organic pets. The pets now have additional needs, including for organic pets a need to go to the bathroom and for robotic pets a need to be oiled and maintained. Dogs can be walked and their cages can be cleaned, while cats have a communal litter box that requires cleaning.</p>
+                        <br>
+                        <p class="skills">Skills used: Java, TDD.</p>
+                    </div>
+                </article>
+            </li>
+            <li>
+                <article class='projectSlide' id='projectThreeSlide'>
+                    <figure>
+                        <h3>Reviews Site</h3>
+                        <a href="https://github.com/andrewdpadula/reviews-site-redux">
+                            <img src="./src/img/ReviewsSite.JPG" alt="screenshot image of Reviews Site project" id="portfolioImage">
+                        </a>
+                        <figcaption>Click screenshot to view project on GitHub</figcaption>
+                    </figure>
+                    <div id='projectThreeDescription'>
+                        <p>A full-stack website containing my reviews of such diverse topics as: having a mustache, raising a parakeet, visiting Nashville, and eating vegetables.</p>
+                        <br>
+                        <p class="skills">Skills used: Spring, Java, Thymeleaf, HTML, CSS, JavaScript, TDD.</p>
+                    </div>
+                </article>    
+            </li>
+            </ol>
+
+        </section>
+
+        <!-- Footer -->
+		<footer>
+            <p class="backToTop">
+                <a href="#top">Back to top</a>
+            </p>
+            <p>&copy;2018 Andrew Padula</p>
+        </footer>
     </div>
     <script src="./src/js/app.js"></script>	
 </body>
