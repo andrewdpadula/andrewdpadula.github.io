@@ -1,4 +1,11 @@
-* {
+
+
+
+
+
+
+
+/* * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
@@ -76,7 +83,7 @@ figure figcaption {
 	margin-top: .5rem;
 	position: relative;
 	text-align: right;
-	font-size: 14px;
+	font-size: 12px;
 	width: 100%;
 }
 
@@ -89,3 +96,38 @@ figure figcaption {
 #contactSection {
 	padding-top: 3rem;
 }
+
+
+
+#projectOneDescription {
+	display: none;
+}
+#projectOneDescription.open{
+	display: block;
+}
+
+#projectTwoDescription {
+	display: none;
+}
+#projectTwoDescription.open{
+	display: block;
+}
+
+#projectThreeDescription {
+	display: none;
+}
+#projectThreeDescription.open{
+	display: block;
+}
+
+#modal-screen {
+	display: none;
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	justify-content: center;
+    align-items: center;
+}
+body.modal-open #modal-screen {
+    display: flex;
+} */
