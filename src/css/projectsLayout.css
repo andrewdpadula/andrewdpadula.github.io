@@ -49,4 +49,60 @@
 
 
 /* PROJECTS CAROUSEL/SLIDESHOW */
+figure {
+    align-content: center;
+    justify-content: center;
+}
+.projectSlide {
+    display: none;
+}
+.projectsCarousel {
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+}
+img{
+    max-width: 725px;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    font-weight: bolder;
+    font-size: 50px;
+    background-color: #ddd;
+    padding: 0 10px 8px 10px;
+}
+.prev:hover, .next:hover {
+    background-color: #00ff99;
+  }
+.next {
+    right: -80px;
+    top: 200px;
+}
+.prev {
+    left: -80px;
+    top: 200px;
+}
 
+
+/* EXPAND PROJECT DETAILS */
+#projectOneDescription {
+	display: none;
+}
+#projectOneDescription.open{
+	display: block;
+}
+
+#projectTwoDescription {
+	display: none;
+}
+#projectTwoDescription.open{
+	display: block;
+}
+
+#projectThreeDescription {
+	display: none;
+}
+#projectThreeDescription.open{
+	display: block;
+}
