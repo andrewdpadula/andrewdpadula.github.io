@@ -1,16 +1,12 @@
 * {
     font-family: 'Vollkorn', serif; 
 }
-
 :root {
     background: #ccc;
 }
 
 h1, h2, h3, a {
     font-family: 'Bevan', cursive;
-}
-img {
-    border-radius: 10%;
 }
 
 header h1{
@@ -21,26 +17,12 @@ header h1{
     text-align: center;
     border: 2px dotted black;
 }
-footer a {
-    font-family: 'Vollkorn', serif; 
-}
-.backToTop a {
+.backToTop a {    
     background: #00ff99;
-    font-family: 'Bevan', cursive;
-    padding: .3rem .5rem;
-}
-
-.contactLink img {
-    background: white;
-    border-radius: 20%;
-}
-.contactLink img:hover {
-    background: #ffcc00;
 }
 h2 {
     padding: .4rem .2rem;
     font-size: 36px;
     margin: 0 25vw 0 25vw;
+    text-align: center;
 }
-
-
