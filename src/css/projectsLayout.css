@@ -37,7 +37,7 @@
     min-width: 100px;
 }
 
-.dropdown-links a: {
+.dropdown-links a {
     float: none;
     display: block;
     text-align: left;
@@ -46,6 +46,7 @@
 .dropdown-links a:hover {
     display: block;
     background-color: #666;
+    color: #00ff99;
     width: 100%;
 }
 
